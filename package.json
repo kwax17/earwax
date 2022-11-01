@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwax17/earwax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kwax17/earwax/issues"
+  },
+  "homepage": "https://github.com/kwax17/earwax#readme"
 }

@@ -1,16 +1,14 @@
 import React from 'react';
+import About from '../components/About'
 
 const Home = () => {
     return (
-      <div className='hero'>
-          <h2>Hey.  This is earwax, the music app making listening fun.  Let's get cooking!</h2>
-            <div className='divider'></div>
-          <h3 className='hero-intro'>First, what do you wanna do today?</h3>
+      <div className='home'>
+          <h2>Hey.  This is earwax, the virtual mixed tape. Create a playlist, decorate the cover, and enjoy. Send it to a friend or just remember the color of day. Let's get cooking!</h2>
           <div className='heroBtn'>
-            <button>The Swiper</button>
             <button>Make a Playlist</button>
-            <button>Random Song</button>
           </div>
+          <About></About>
       </div>
     );
   };

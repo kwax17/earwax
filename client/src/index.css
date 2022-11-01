@@ -92,14 +92,19 @@ footer {
   margin-right: auto;
 }
 
-.hero h2 {
+.hero {
+  overflow: hidden;
+}
+
+.home h2 {
   margin-top: 30pt;
   text-align: center;
-  margin-bottom: 30pt;
+  margin-bottom: 20pt;
 }
 
 .heroBtn {
   margin-top: 35pt;
+  margin-bottom: 35pt;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -111,9 +116,9 @@ footer {
 }
 
 button {
-  padding: 15pt 30pt;
-  background-color: var(--tertiary);
-  font-size: 12pt;
+  padding: 30pt 60pt;
+  background-color: var(--secondary);
+  font-size: 24pt;
   font-weight: 777;
   border-radius: var(--border-radius);
 }

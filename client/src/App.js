@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer'; 
 import Home from './pages/Home';
+import Hero from './components/Hero'
 // import Profile from './pages/Profile';
 // import Signup from './pages/Signup';
 // import Login from './pages/Login';
@@ -20,6 +21,7 @@ function App() {
     <Router>
         <div className="flex-column min-100-vh">
           <Header />
+          <Hero />
           <div className="container">
             <Routes>
               <Route
