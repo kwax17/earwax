@@ -85,15 +85,20 @@ footer {
 /* end footer */
 
 /* start main */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+/* .container {
+ 
+} */
+
+.hero img {
+  width: 100%;
+  opacity: 75%;
 }
 
-.hero {
-  overflow: hidden;
+.home {
+  /* width: 90%;  */
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home h2 {
@@ -104,7 +109,7 @@ footer {
 
 .heroBtn {
   margin-top: 35pt;
-  margin-bottom: 35pt;
+  margin-bottom: 100pt;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -121,6 +126,15 @@ button {
   font-size: 24pt;
   font-weight: 777;
   border-radius: var(--border-radius);
+}
+
+button a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+button a:hover {
+  color: var(--tertiary);
 }
 
 .divider {

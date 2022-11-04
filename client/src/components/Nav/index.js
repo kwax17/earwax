@@ -12,6 +12,7 @@ function Nav() {
     <nav>
       <ul className="navbar">
         <li className="navlink"><a href="../../">Home</a></li>
+        <li className="navlink"><a href="../../PlaylistMaker">Playlist</a></li>
         <li className="navlink"><a href="../../Profile">Profile</a></li>
         <li className="navlink"><a href="../../Login">Login</a></li>
       </ul>

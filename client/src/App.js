@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
-import Footer from './components/Footer'; 
+import Footer from './components/Footer';
 import Home from './pages/Home';
-import Hero from './components/Hero'
+import PlaylistMaker from './pages/PlaylistMaker'
 // import Profile from './pages/Profile';
 // import Signup from './pages/Signup';
 // import Login from './pages/Login';
@@ -19,16 +19,19 @@ function App() {
     //   <Footer></Footer>
     // </div>
     <Router>
-        <div className="flex-column min-100-vh">
-          <Header />
-          <Hero />
-          <div className="container">
-            <Routes>
-              <Route
-                path="/"
-                element={<Home />}
-              />
-              {/* <Route
+      <div className="flex-column min-100-vh">
+        <Header />
+        <div className="container">
+          <Routes>
+            <Route
+              path="/"
+              element={<Home />}
+            />
+            <Route
+              path="/playlist"
+              element={<PlaylistMaker />}
+            />
+            {/* <Route
                 path="/login"
                 element={<Login />}
               />
@@ -40,11 +43,11 @@ function App() {
                 path="/profile"
                 element={<Profile />}
               /> */}
-            </Routes>
-          </div>
-          <Footer />
+          </Routes>
         </div>
-      </Router>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

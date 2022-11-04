@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/kwax17/earwax/issues"
   },
-  "homepage": "https://github.com/kwax17/earwax#readme"
+  "homepage": "https://github.com/kwax17/earwax#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.11.1",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "faker": "^6.6.6",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.1",
+    "nodemon": "^2.0.20",
+    "react-router-dom": "^6.4.3"
+  }
 }

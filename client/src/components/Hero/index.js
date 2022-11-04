@@ -4,7 +4,7 @@ import coverImage from '../../assets/mixtapes.png';
 const Hero = () => {
     return (
       <div className='hero'>
-        <img src={coverImage} style={{ width: "100%" }} alt="cover" ></img>
+        <img src={coverImage} alt="cover" ></img>
       </div>
     );
   };
