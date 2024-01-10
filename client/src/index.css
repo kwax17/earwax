@@ -1,7 +1,7 @@
 :root {
   --primary: #BDBF09;
   --secondary: #D96C06;
-  --tertiary: #2292A4;
+  --tertiary: #ACABC5;
   --dark: #0F0A0A;
   --light: #F5EFED;
   --border-radius: 0.7rem;
@@ -14,13 +14,11 @@
 body {
   min-height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--dark);
-  color: var(--light);
+  background-color: var(--tertiary);
+  color: var(--dark);
 }
 
 code {
@@ -40,13 +38,13 @@ code {
 }
 
 nav ul li a {
-  color: var(--dark);
+  color: var(--secondary);
   text-decoration: none;
   font-weight: 777;
 }
 
 header {
-  background-color: var(--primary);
+  background-color: var(--dark);
 }
 
 nav {
@@ -61,17 +59,19 @@ nav {
 }
 
 .headerNav h2 {
-  font-size: 30pt;
+  font-size: 36pt;
   margin-top: auto;
   margin-bottom: auto;
   padding: 5pt 15pt 10pt 15pt;
+  font-family: 'Irish Grover', cursive;
+  color: var(--primary);
 }
 
 /* end header */
 
 /* start footer */
 footer {
-  background-color: var(--primary);
+  background-color: var(--dark);
   padding: 5pt;
   width: 100%;
   margin-top: auto;
@@ -80,6 +80,7 @@ footer {
 
 .footer {
   text-align: center;
+  color: var(--primary);
 }
 
 /* end footer */
@@ -115,13 +116,18 @@ footer {
   justify-content: space-around;
 }
 
+.heroBtn button {
+  font-family: 'Irish Grover', cursive;
+  font-size: 30pt;
+}
+
 .hero-intro {
   margin-top: 30pt;
   text-align: center;
 }
 
 button {
-  padding: 30pt 60pt;
+  padding: 25pt 40pt;
   background-color: var(--secondary);
   font-size: 24pt;
   font-weight: 777;
@@ -130,11 +136,11 @@ button {
 
 button a {
   text-decoration: none;
-  color: var(--primary);
+  color: var(--dark);
 }
 
 button a:hover {
-  color: var(--tertiary);
+  color: var(--primary);
 }
 
 .divider {

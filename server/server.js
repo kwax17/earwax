@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config({ path: 'ENV_FILENAME' });
 const express = require("express");
 // import ApolloServer
 const { ApolloServer } = require("apollo-server-express");
@@ -23,6 +23,7 @@ const server = new ApolloServer({
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
+// app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 // Create a new instance of an Apollo server with the GraphQL schema

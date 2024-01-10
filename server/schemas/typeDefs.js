@@ -27,6 +27,11 @@ const typeDefs = gql`
     playlists(playlistTitle: String): [Playlist]
     playlist(_id: ID!): Playlist
   }
+  type Mutation {
+    login(email: String!, password: String!): Auth
+    addUser(username: String!, email: String!, password: String!): Auth
+    addPlaylist(playlistTitle: String!): Playlist
+  }
 `;
 
 // export the typeDefs
